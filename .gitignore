@@ -1,0 +1,35 @@
+# Secrets & local env
+key.env
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data dumps / local outputs
+experiments/_runs/
+*.h5
+*.pkl
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Cursor agent skill cache (not needed for deployment)
+.agents/
+
+# Wildfire model artifacts and downloaded data
+/data/raw/
+/data/processed/
+/models/*.pt
+!/models/best.pt
+/runs/
